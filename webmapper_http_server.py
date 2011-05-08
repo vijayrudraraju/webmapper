@@ -13,7 +13,7 @@ import hashlib
 from cStringIO import StringIO
 
 message_pipe = []
-tracing = False
+tracing = True
 
 class ReuseTCPServer(SocketServer.ThreadingTCPServer):
     allow_reuse_address = True
